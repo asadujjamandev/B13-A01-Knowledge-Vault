@@ -9,6 +9,7 @@ box-sizing: border-box;}
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
 /* main style */
 nav{
     width: 83.33%;
@@ -50,4 +51,76 @@ nav .btn{
   color: #FFFFFF;
   padding: 12px 16px;
   border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600px;
+  cursor: pointer;
+}
+
+#header_banner{
+  background: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  align-items: center;
+  padding: 115px 120px 180px;
+}
+#header_banner .banner_container{
+max-width: 1360px;
+}
+.banner_container .btn-banner{
+background-color: #FFFFFF;
+padding: 8px 12px 8px 12px;
+color: #469165;
+font-size: 16px;
+font-weight: 500px;
+margin-bottom: 16px;
+border-radius: 1000px;
+}
+
+#header_banner .banner_container h1{
+font-size: 72px;
+line-height: 84px;
+color: #FFFFFF;
+font-weight: 700px;
+margin-bottom: 16px;
+}
+.title{
+  color: #30B868;
+}
+#header_banner .banner_container p{
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.banner-btn {
+  max-width: 465px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.banner-btn .button_1{
+padding: 16px;
+background-color: #469165;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 600px;
+border: none;
+cursor: pointer;
+}
+.banner-btn .button_2{
+  padding: 16px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600px;
+  cursor: pointer;
 }
