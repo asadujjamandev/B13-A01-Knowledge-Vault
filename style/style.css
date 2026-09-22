@@ -188,3 +188,63 @@ cursor: pointer;
   font-size: 16px;
   font-weight: 400px;
 }
+
+#brain{
+ width: 83.33%;
+  max-width: 1600px;
+  margin: 120px 120px 120px 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+#brain .barin-container{
+  max-width: 1360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.barin-container .brain-image img{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+
+.barin-container .barin-content .content-p{
+  color: #469165;
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.barin-container .barin-content h2{
+  color: #001931;
+  font-size: 48px;
+  font-weight: 700px;
+  margin-bottom: 16px;
+}
+.barin-container .barin-content .content-more{
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.barin-container .barin-content .features-item{
+  margin-bottom: 15px;
+}
+.barin-container .barin-content .features-item img{
+  width: 15px;
+    height: 15px;
+    object-fit: contain;
+    margin-right: 6px;
+}
+.barin-container .barin-content .features-item span{
+  color: #001931;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 20px;
+}
